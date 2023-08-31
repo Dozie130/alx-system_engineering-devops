@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x,g+x,o+r $(find . -name hello):
+chmod ug+x,o+r hello
