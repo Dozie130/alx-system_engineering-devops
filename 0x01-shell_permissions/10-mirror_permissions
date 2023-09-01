@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ -e olleh ]; then chmod --reference=olleh hello; fi
+[ -e olleh ] && chmod --reference=olleh hello
